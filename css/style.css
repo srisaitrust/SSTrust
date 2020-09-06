@@ -82,6 +82,10 @@ img {
 	margin-top: 3px;
 	margin-left: 0px;
 	}
+.responsive{
+	width:100%;
+	height:auto;
+}
 /*
   Hamburger Menu
 ----------------------------------------*/
@@ -1800,27 +1804,17 @@ hr {
   font-size: 16px;
   margin-top: 10px; 
   margin-bottom: 10px; 
-  margin-left: 32px;
+  margin-left: 10px;
 }
 /*Floating Back-To-Top Button*/
-    #myBtn {
-        position: fixed;
-        bottom: 10px;
-        float: right;
-        right: 18.5%;
-        left: 77.25%;
-        max-width: 30px;
-        width: 100%;
-        font-size: 12px;
-        border-color: rgba(85, 85, 85, 0.2);
-        background-color: rgb(100,100,100);
-        padding: .5px;
-        border-radius: 4px;
-
+    #backtotop {
+        font-size: 14px;
+        color: white;
+		font-weight: 500;
     }
 /*On Hover Color Change*/
-    #myBtn:hover {
-        background-color: #7dbbf1;
+    #backtotop:hover {
+        color: #ffcc33;
     }
 
 /*--------------------------------------------------------------
